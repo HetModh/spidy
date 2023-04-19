@@ -1,6 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
 
+*:focus {
+    background-color: yellow;
+    outline-color: red;
+    outline-offset: 2px;
+    color: black;
+}
+
+*:focus-visible {
+    background-color: yellow;
+    color: black;
+    outline-offset: 0;
+}
+
+iframe {
+    border: none;
+}
+
 body {
     background-image: url(../images/bg.png);
     background-position: top center;
